@@ -1,8 +1,16 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Form from './Form';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('fname input should be rendered', ()=>{
+  render(<Form/>);
+
+  const fnameInput = screen.getByPlaceholderText(/fname/i);
+  expect(fnameInput).toBeInTheDocument()
+})
+
+test('render fisrt name component in the document', ()=>{
+  render(<Form/>);
+
+  const fname = screen.getByLabelText(/first name/i);
+  expect(fname).toBeInTheDocument()
+})

@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10rem;
+  text-align: center;
+  margin-top: 10rem;
+  border-radius: 2px solid ;
+}
+
+
+button{
+  background-color: rgb(107, 107, 238);
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 3rem;
+  margin-left: 10rem;
+  padding: 0.6rem;
+  
+}
+
+form{
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(165, 236, 212);
+  padding: 10rem;
+}
+
+input{
+  padding: 0.4rem;
+  width: 20rem;
+
+ 
+}
+
+.err{
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-control{
+  margin-bottom: 0.4rem;
+}
